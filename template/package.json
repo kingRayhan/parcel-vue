@@ -1,7 +1,7 @@
 {
     "name": "{{ name }}",
     "version": "1.0.0",
-    "description": "{{ name }}",
+    "description": "{{ description }}",
     "scripts": {
         "start": "rm -rf dist && rm -rf .cache && parcel public/index.html --open",
         "build": "rm -rf dist && rm -rf .cache && parcel build public/index.html"
